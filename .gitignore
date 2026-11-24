@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+.pytest_cache/
+.learnings/
+demo_sag_workspace/
+sag_workspace/
+results.tsv

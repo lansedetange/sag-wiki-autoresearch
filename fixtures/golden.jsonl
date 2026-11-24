@@ -1,0 +1,9 @@
+{"id":"hotel_current","question":"2026年去上海出差，住宿费上限是多少？","expected_raw_ids":["travel_policy_2026_c00"],"required_facts":["650"],"expect_refusal":false}
+{"id":"hotel_old_status","question":"2024年旧版规定的一线城市住宿上限是多少，现在还有效吗？","expected_raw_ids":["travel_policy_2024_old_c00"],"required_facts":["500","废止"],"expect_refusal":false}
+{"id":"hotel_documents","question":"差旅住宿报销需要提供哪些材料？","expected_raw_ids":["expense_guide_c00"],"required_facts":["发票","付款记录"],"expect_refusal":false}
+{"id":"flight_approval","question":"从北京到广州，飞行时长超过多久可以申请经济舱全价票，需要什么审批？","expected_raw_ids":["travel_policy_2026_c00"],"required_facts":["3","OA","审批"],"expect_refusal":false}
+{"id":"meal_allowance","question":"员工差旅期间的餐饮补贴标准是多少？","expected_raw_ids":["expense_guide_c00"],"required_facts":["100"],"expect_refusal":false}
+{"id":"hotel_conflict","question":"现行一线城市住宿费上限是500元还是650元？旧标准还能用吗？","expected_raw_ids":["travel_policy_2026_c00","travel_policy_2024_old_c00"],"required_facts":["650","500","废止"],"expect_refusal":false}
+{"id":"hotel_cross_document","question":"去上海出差的住宿费上限和住宿报销材料分别是什么？","expected_raw_ids":["travel_policy_2026_c00","expense_guide_c00"],"required_facts":["650","发票"],"expect_refusal":false}
+{"id":"pet_boarding","question":"员工可以报销宠物寄养费用吗？","expected_raw_ids":[],"required_facts":[],"expect_refusal":true}
+{"id":"gym_membership","question":"公司是否提供免费健身会员？","expected_raw_ids":[],"required_facts":[],"expect_refusal":true}
